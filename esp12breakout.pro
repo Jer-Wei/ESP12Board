@@ -1,4 +1,4 @@
-update=zo 26 feb 2017 22:22:38 CET
+update=ma 27 feb 2017 23:49:58 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/thijs/kicad/libraries/kicad-ESP8266/ESP8266
+LibName31=esp12breakout-cache

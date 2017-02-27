@@ -94,17 +94,6 @@ F 3 "" H 4850 1750 50  0000 C CNN
 	1    4850 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper_NO_Small JP2
-U 1 1 58B40B4F
-P 5575 1750
-F 0 "JP2" H 5525 1975 50  0000 L CNN
-F 1 "Jumper_NO_Small" H 5275 1875 50  0000 L CNN
-F 2 "Connectors:PINHEAD1-2" H 5575 1750 50  0001 C CNN
-F 3 "" H 5575 1750 50  0000 C CNN
-	1    5575 1750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5000 1750 5100 1750
 $Comp
@@ -214,9 +203,7 @@ Wire Wire Line
 	4525 1750 4700 1750
 Wire Wire Line
 	6025 3350 5600 3350
-Wire Wire Line
-	5675 1750 5950 1750
-Text Label 5775 1750 0    60   ~ 0
+Text Label 6100 1750 0    60   ~ 0
 VCC
 Text Label 4525 1750 0    60   ~ 0
 GND
@@ -248,12 +235,12 @@ Wire Wire Line
 Text Label 6475 3350 0    60   ~ 0
 GND
 Wire Wire Line
-	3475 3975 3200 3975
+	3200 3975 3475 3975
 Wire Wire Line
 	3775 3975 4075 3975
-Text Label 3200 3975 0    60   ~ 0
+Text Label 3925 3975 0    60   ~ 0
 VCC
-Text Label 3900 3975 0    60   ~ 0
+Text Label 3200 3975 0    60   ~ 0
 GND
 Wire Wire Line
 	3800 3450 3550 3450
@@ -307,23 +294,23 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG03
 U 1 1 58B4B9C8
-P 4075 3975
-F 0 "#FLG03" H 4075 4070 50  0001 C CNN
-F 1 "PWR_FLAG" H 4075 4198 50  0000 C CNN
-F 2 "" H 4075 3975 50  0000 C CNN
-F 3 "" H 4075 3975 50  0000 C CNN
-	1    4075 3975
+P 3900 4875
+F 0 "#FLG03" H 3900 4970 50  0001 C CNN
+F 1 "PWR_FLAG" H 3900 5098 50  0000 C CNN
+F 2 "" H 3900 4875 50  0000 C CNN
+F 3 "" H 3900 4875 50  0000 C CNN
+	1    3900 4875
 	-1   0    0    1   
 $EndComp
 $Comp
 L PWR_FLAG #FLG04
 U 1 1 58B4BA68
-P 3200 3975
-F 0 "#FLG04" H 3200 4070 50  0001 C CNN
-F 1 "PWR_FLAG" H 3200 4198 50  0000 C CNN
-F 2 "" H 3200 3975 50  0000 C CNN
-F 3 "" H 3200 3975 50  0000 C CNN
-	1    3200 3975
+P 3200 5000
+F 0 "#FLG04" H 3200 5095 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 5223 50  0000 C CNN
+F 2 "" H 3200 5000 50  0000 C CNN
+F 3 "" H 3200 5000 50  0000 C CNN
+	1    3200 5000
 	-1   0    0    1   
 $EndComp
 Text GLabel 2825 2425 0    60   Input ~ 0
@@ -341,4 +328,66 @@ F 3 "" H 3125 2425 50  0000 C CNN
 	1    3125 2425
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper JP2
+U 1 1 58B4CBBA
+P 5775 1750
+F 0 "JP2" H 5775 2014 50  0000 C CNN
+F 1 "Jumper" H 5775 1923 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5775 1750 50  0001 C CNN
+F 3 "" H 5775 1750 50  0000 C CNN
+	1    5775 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6075 1750 6275 1750
+$Comp
+L Screw_Terminal_1x02 J1
+U 1 1 58B4E019
+P 3625 5200
+F 0 "J1" V 3752 4995 50  0000 R CNN
+F 1 "Screw_Terminal_1x02" V 3661 4995 50  0000 R CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 3625 4975 50  0001 C CNN
+F 3 "" H 3600 5200 50  0001 C CNN
+	1    3625 5200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3450 3975
+Connection ~ 3800 3975
+$Comp
+L SPX2920U-3.3 U1
+U 1 1 58B4E37F
+P 3600 4650
+F 0 "U1" H 3950 4600 50  0000 C CNN
+F 1 "SPX2920U-3.3" H 4200 4525 50  0000 C CNN
+F 2 "Power_Integrations:TO-220" H 3600 4876 50  0000 C CIN
+F 3 "" H 3600 4650 50  0000 C CNN
+	1    3600 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 5000 3200 5000
+Wire Wire Line
+	3200 5000 3200 4600
+Wire Wire Line
+	3725 5000 3600 5000
+Wire Wire Line
+	3600 5000 3600 4900
+Wire Wire Line
+	3900 4875 3650 4875
+Wire Wire Line
+	3650 4875 3650 5000
+Connection ~ 3650 5000
+Wire Wire Line
+	4075 3975 4075 4600
+Wire Wire Line
+	4075 4600 4000 4600
+Wire Wire Line
+	3600 4900 3275 4900
+Wire Wire Line
+	3275 4900 3275 4275
+Wire Wire Line
+	3275 4275 3450 4275
+Wire Wire Line
+	3450 4275 3450 3975
 $EndSCHEMATC
