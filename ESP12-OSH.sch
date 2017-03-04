@@ -1,0 +1,324 @@
+EESchema Schematic File Version 2
+LIBS:ESP12-OSH-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP12-OSH-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R3
+U 1 1 58B670E1
+P 5975 3350
+F 0 "R3" V 5768 3350 50  0000 C CNN
+F 1 "1K" V 5975 3350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5905 3350 50  0001 C CNN
+F 3 "" H 5975 3350 50  0000 C CNN
+	1    5975 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 58B670E2
+P 3600 2950
+F 0 "R1" V 3525 2950 50  0000 C CNN
+F 1 "100" V 3600 2950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3530 2950 50  0001 C CNN
+F 3 "" H 3600 2950 50  0000 C CNN
+	1    3600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 58B670E4
+P 4850 4900
+F 0 "D1" H 4841 5116 50  0000 C CNN
+F 1 "LED" H 4841 5025 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 4850 4900 50  0001 C CNN
+F 3 "" H 4850 4900 50  0000 C CNN
+	1    4850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 58B670E5
+P 5250 4900
+F 0 "R2" V 5043 4900 50  0000 C CNN
+F 1 "1K" V 5134 4900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5180 4900 50  0001 C CNN
+F 3 "" H 5250 4900 50  0000 C CNN
+	1    5250 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X08 P1
+U 1 1 58B670E7
+P 2950 3100
+F 0 "P1" H 2975 3625 50  0000 C CNN
+F 1 "CONN_01X08" H 2775 3550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.00mm" H 2950 3100 50  0001 C CNN
+F 3 "" H 2950 3100 50  0000 C CNN
+	1    2950 3100
+	-1   0    0    1   
+$EndComp
+Text Label 6100 4900 0    60   ~ 0
+VCC
+Text Label 4525 4900 0    60   ~ 0
+GND
+$Comp
+L CONN_01X06 P2
+U 1 1 58B670E8
+P 4700 4250
+F 0 "P2" V 4800 3950 50  0000 L CNN
+F 1 "CONN_01X06" V 4875 3950 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.00mm" H 4700 4250 50  0001 C CNN
+F 3 "" H 4700 4250 50  0000 C CNN
+	1    4700 4250
+	0    1    1    0   
+$EndComp
+Text Label 3225 3450 0    60   ~ 0
+VCC
+Text Label 5800 3450 2    60   ~ 0
+GND
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 58B670EC
+P 3825 4600
+F 0 "#FLG01" H 3825 4695 50  0001 C CNN
+F 1 "PWR_FLAG" H 3825 4823 50  0000 C CNN
+F 2 "" H 3825 4600 50  0000 C CNN
+F 3 "" H 3825 4600 50  0000 C CNN
+	1    3825 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 58B670ED
+P 2975 4600
+F 0 "#FLG02" H 2975 4695 50  0001 C CNN
+F 1 "PWR_FLAG" H 2975 4823 50  0000 C CNN
+F 2 "" H 2975 4600 50  0000 C CNN
+F 3 "" H 2975 4600 50  0000 C CNN
+	1    2975 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper JP1
+U 1 1 58B670EE
+P 3500 2600
+F 0 "JP1" H 3500 2864 50  0000 C CNN
+F 1 "Jumper" H 3500 2773 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 3500 2600 50  0001 C CNN
+F 3 "" H 3500 2600 50  0000 C CNN
+	1    3500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper JP2
+U 1 1 58B670EF
+P 5775 4900
+F 0 "JP2" H 5775 5164 50  0000 C CNN
+F 1 "Jumper" H 5775 5073 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5775 4900 50  0001 C CNN
+F 3 "" H 5775 4900 50  0000 C CNN
+	1    5775 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 58B67E24
+P 3000 2600
+F 0 "R4" V 2925 2600 50  0000 C CNN
+F 1 "10K" V 3000 2600 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2930 2600 50  0001 C CNN
+F 3 "" H 3000 2600 50  0000 C CNN
+	1    3000 2600
+	0    1    1    0   
+$EndComp
+Text Label 2675 2600 0    60   ~ 0
+VCC
+Text Label 3225 2950 0    60   ~ 0
+VCC
+$Comp
+L CONN_01X08 P3
+U 1 1 58B685AA
+P 6325 3100
+F 0 "P3" H 6300 2575 50  0000 L CNN
+F 1 "CONN_01X08" H 5900 2650 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.00mm" H 6325 3100 50  0001 C CNN
+F 3 "" H 6325 3100 50  0000 C CNN
+	1    6325 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2950 3750 2950
+Wire Wire Line
+	3150 2750 3800 2750
+Wire Wire Line
+	3150 3050 3800 3050
+Wire Wire Line
+	5000 4900 5100 4900
+Wire Wire Line
+	5400 4900 5475 4900
+Wire Wire Line
+	4525 4900 4700 4900
+Wire Wire Line
+	5825 3350 5600 3350
+Wire Wire Line
+	3150 3450 3800 3450
+Wire Wire Line
+	6075 4900 6275 4900
+Wire Wire Line
+	6125 2750 5600 2750
+Wire Wire Line
+	6125 2850 5600 2850
+Wire Wire Line
+	5600 2950 6125 2950
+Wire Wire Line
+	5600 3050 6125 3050
+Wire Wire Line
+	5600 3150 6125 3150
+Wire Wire Line
+	5600 3250 6125 3250
+Text Label 5600 2750 0    60   ~ 0
+TX
+Text Label 5600 2850 0    60   ~ 0
+RX
+Wire Wire Line
+	6125 3450 5600 3450
+Wire Wire Line
+	6125 3350 6125 3450
+Wire Wire Line
+	3800 2850 3150 2850
+Wire Wire Line
+	3150 3150 3800 3150
+Wire Wire Line
+	3150 3350 3800 3350
+Wire Wire Line
+	3150 2950 3450 2950
+Wire Wire Line
+	3800 3250 3150 3250
+Wire Wire Line
+	3800 3050 3800 2600
+Connection ~ 3800 3050
+Wire Wire Line
+	4450 3950 4450 4050
+Wire Wire Line
+	4550 3950 4550 4050
+Wire Wire Line
+	4650 4050 4650 3950
+Wire Wire Line
+	4750 3950 4750 4050
+Wire Wire Line
+	4850 3950 4850 4050
+Wire Wire Line
+	4950 3950 4950 4050
+$Comp
+L CONN_01X02 P4
+U 1 1 58B6B5B1
+P 3325 4800
+F 0 "P4" V 3525 4800 50  0000 C CNN
+F 1 "CONN_01X02" V 3425 4800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 3325 4800 50  0001 C CNN
+F 3 "" H 3325 4800 50  0000 C CNN
+	1    3325 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3375 4600 3825 4600
+Wire Wire Line
+	2975 4600 3275 4600
+$Comp
+L SPX2920U-3.3 U3
+U 1 1 58B6B952
+P 3375 4200
+F 0 "U3" H 3150 4575 50  0000 C CNN
+F 1 "SPX2920U-3.3" H 3375 4500 50  0000 C CNN
+F 2 "Power_Integrations:TO-220" H 3375 4426 50  0000 C CIN
+F 3 "" H 3375 4200 50  0000 C CNN
+	1    3375 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 4450 3375 4600
+Wire Wire Line
+	2975 4150 2975 4600
+$Comp
+L C C2
+U 1 1 58B6BC3F
+P 3825 4400
+F 0 "C2" H 3650 4400 50  0000 C CNN
+F 1 "0.1uF" H 3600 4325 50  0000 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3863 4250 50  0001 C CNN
+F 3 "" H 3825 4400 50  0000 C CNN
+	1    3825 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3825 4150 3775 4150
+Wire Wire Line
+	3825 4150 3825 4250
+Wire Wire Line
+	3825 4600 3825 4550
+Text Label 3400 4600 0    60   ~ 0
+GND
+Text Label 3825 4225 0    60   ~ 0
+VCC
+$Comp
+L ESP-12E U2
+U 1 1 58B670E9
+P 4700 3050
+F 0 "U2" H 4700 3815 50  0000 C CNN
+F 1 "ESP-12E" H 4700 3724 50  0000 C CNN
+F 2 "ESP8266:ESP-12E" H 4700 3050 50  0001 C CNN
+F 3 "" H 4700 3050 50  0001 C CNN
+	1    4700 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2675 2600 2850 2600
+Wire Wire Line
+	3150 2600 3200 2600
+Wire Wire Line
+	3200 2600 3200 2750
+Connection ~ 3200 2750
+Connection ~ 3200 2600
+$EndSCHEMATC
