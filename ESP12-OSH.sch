@@ -94,7 +94,7 @@ U 1 1 58B670E7
 P 2950 3100
 F 0 "P1" H 2975 3625 50  0000 C CNN
 F 1 "CONN_01X08" H 2775 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.00mm" H 2950 3100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 2950 3100 50  0001 C CNN
 F 3 "" H 2950 3100 50  0000 C CNN
 	1    2950 3100
 	-1   0    0    1   
@@ -109,7 +109,7 @@ U 1 1 58B670E8
 P 4700 4250
 F 0 "P2" V 4800 3950 50  0000 L CNN
 F 1 "CONN_01X06" V 4875 3950 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.00mm" H 4700 4250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 4700 4250 50  0001 C CNN
 F 3 "" H 4700 4250 50  0000 C CNN
 	1    4700 4250
 	0    1    1    0   
@@ -146,7 +146,7 @@ U 1 1 58B670EE
 P 3500 2600
 F 0 "JP1" H 3500 2864 50  0000 C CNN
 F 1 "Jumper" H 3500 2773 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 3500 2600 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3500 2600 50  0001 C CNN
 F 3 "" H 3500 2600 50  0000 C CNN
 	1    3500 2600
 	1    0    0    -1  
@@ -157,7 +157,7 @@ U 1 1 58B670EF
 P 5775 4900
 F 0 "JP2" H 5775 5164 50  0000 C CNN
 F 1 "Jumper" H 5775 5073 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5775 4900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5775 4900 50  0001 C CNN
 F 3 "" H 5775 4900 50  0000 C CNN
 	1    5775 4900
 	1    0    0    -1  
@@ -183,7 +183,7 @@ U 1 1 58B685AA
 P 6325 3100
 F 0 "P3" H 6300 2575 50  0000 L CNN
 F 1 "CONN_01X08" H 5900 2650 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.00mm" H 6325 3100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 6325 3100 50  0001 C CNN
 F 3 "" H 6325 3100 50  0000 C CNN
 	1    6325 3100
 	1    0    0    -1  
@@ -257,7 +257,7 @@ U 1 1 58B6B5B1
 P 3325 4800
 F 0 "P4" V 3525 4800 50  0000 C CNN
 F 1 "CONN_01X02" V 3425 4800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 3325 4800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3325 4800 50  0001 C CNN
 F 3 "" H 3325 4800 50  0000 C CNN
 	1    3325 4800
 	0    1    1    0   
