@@ -1,4 +1,4 @@
-update=wo 01 mrt 2017 07:51:53 CET
+update=zo 05 mrt 2017 20:28:23 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -67,3 +67,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=ESP12-OSH
+LibName32=/mnt/MintData/Dropbox/Documents/KiCad/ESP12/ht7333
