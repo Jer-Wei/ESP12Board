@@ -13,11 +13,11 @@ The circuit is for running projects, not for programming the ESP, I will program
 - 100nF stabilizer. 
 
 ## Wishlist next version
-Programmable on the board using 5V/3V switching FTDI cable.
-Optional integrated buck/boost
-Bill of material with links to products
-Smaller footprint
-Improved layout
+- Programmable on the board using 5V/3V switching FTDI cable.
+- Optional integrated buck/boost
+- Bill of material with links to products
+- Smaller footprint
+- Improved layout
 
 ### v1 Circuit
 ![alt tag](img/v1-circuit.png)
