@@ -20,11 +20,12 @@ The circuit is for running projects, not for programming the ESP, I will program
 - Not able to set in Flash mode on board
 
 ## Wishlist next version
-- Programmable on the board using 5V/3V switching FTDI cable.
+- Programmable on the board using FTDI~~ possible as is, more easy with reset and program switches
 - Optional integrated buck/boost
 - Bill of material with links to products
 - Smaller footprint
 - Improved layout
+- optional voltage divider for pre-regulator VCC measurement
 
 ### v1 Circuit
 ![alt tag](img/v1-circuit.png)
