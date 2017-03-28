@@ -1,34 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:ESP12-OSH-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:ESP12-OSH
 LIBS:ht7333
 LIBS:ESP12-OSH-cache
@@ -37,9 +8,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "ESP12 Baord"
+Date "2017-03-22"
+Rev "2.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -47,78 +18,78 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R3
+L R R6
 U 1 1 58B670E1
-P 5975 3350
-F 0 "R3" V 5768 3350 50  0000 C CNN
-F 1 "1K" V 5975 3350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5905 3350 50  0001 C CNN
-F 3 "" H 5975 3350 50  0000 C CNN
-	1    5975 3350
+P 6175 3350
+F 0 "R6" V 6125 3500 50  0000 C CNN
+F 1 "10K" V 6175 3350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6105 3350 50  0001 C CNN
+F 3 "" H 6175 3350 50  0000 C CNN
+	1    6175 3350
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L R R2
 U 1 1 58B670E2
-P 3600 2950
-F 0 "R1" V 3525 2950 50  0000 C CNN
-F 1 "100" V 3600 2950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3530 2950 50  0001 C CNN
-F 3 "" H 3600 2950 50  0000 C CNN
-	1    3600 2950
+P 3200 2950
+F 0 "R2" V 3125 2950 50  0000 C CNN
+F 1 "10K" V 3200 2950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3130 2950 50  0001 C CNN
+F 3 "" H 3200 2950 50  0000 C CNN
+	1    3200 2950
 	0    1    1    0   
 $EndComp
 $Comp
 L LED D1
 U 1 1 58B670E4
-P 4850 4900
-F 0 "D1" H 4841 5116 50  0000 C CNN
-F 1 "LED" H 4841 5025 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm" H 4850 4900 50  0001 C CNN
-F 3 "" H 4850 4900 50  0000 C CNN
-	1    4850 4900
+P 5575 4250
+F 0 "D1" H 5566 4466 50  0000 C CNN
+F 1 "LED" H 5566 4375 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 5575 4250 50  0001 C CNN
+F 3 "" H 5575 4250 50  0000 C CNN
+	1    5575 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R R3
 U 1 1 58B670E5
-P 5250 4900
-F 0 "R2" V 5043 4900 50  0000 C CNN
-F 1 "1K" V 5134 4900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5180 4900 50  0001 C CNN
-F 3 "" H 5250 4900 50  0000 C CNN
-	1    5250 4900
+P 5975 4250
+F 0 "R3" V 5768 4250 50  0000 C CNN
+F 1 "1K" V 5859 4250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5905 4250 50  0001 C CNN
+F 3 "" H 5975 4250 50  0000 C CNN
+	1    5975 4250
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X08 P1
+L CONN_01X08 P3
 U 1 1 58B670E7
-P 2950 3100
-F 0 "P1" H 2975 3625 50  0000 C CNN
-F 1 "CONN_01X08" H 2775 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 2950 3100 50  0001 C CNN
-F 3 "" H 2950 3100 50  0000 C CNN
-	1    2950 3100
+P 7175 2900
+F 0 "P3" H 7200 3425 50  0000 C CNN
+F 1 "CONN_01X08" H 7000 3350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 7175 2900 50  0001 C CNN
+F 3 "" H 7175 2900 50  0000 C CNN
+	1    7175 2900
 	-1   0    0    1   
 $EndComp
-Text Label 6100 4900 0    60   ~ 0
+Text Label 6825 4250 0    60   ~ 0
 VCC
-Text Label 4525 4900 0    60   ~ 0
+Text Label 5250 4250 0    60   ~ 0
 GND
 $Comp
 L CONN_01X06 P2
 U 1 1 58B670E8
-P 4700 4250
-F 0 "P2" V 4800 3950 50  0000 L CNN
-F 1 "CONN_01X06" V 4875 3950 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 4700 4250 50  0001 C CNN
-F 3 "" H 4700 4250 50  0000 C CNN
-	1    4700 4250
+P 4700 4450
+F 0 "P2" V 4800 4150 50  0000 L CNN
+F 1 "CONN_01X06" V 4875 4150 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 4700 4450 50  0001 C CNN
+F 3 "" H 4700 4450 50  0000 C CNN
+	1    4700 4450
 	0    1    1    0   
 $EndComp
-Text Label 3225 3450 0    60   ~ 0
+Text Label 3550 3450 2    60   ~ 0
 VCC
-Text Label 5800 3450 2    60   ~ 0
+Text Label 5600 3450 0    60   ~ 0
 GND
 $Comp
 L PWR_FLAG #FLG01
@@ -144,120 +115,98 @@ F 3 "" H 2975 4600 50  0000 C CNN
 $EndComp
 $Comp
 L Jumper JP1
-U 1 1 58B670EE
-P 3500 2600
-F 0 "JP1" H 3500 2864 50  0000 C CNN
-F 1 "Jumper" H 3500 2773 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3500 2600 50  0001 C CNN
-F 3 "" H 3500 2600 50  0000 C CNN
-	1    3500 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper JP2
 U 1 1 58B670EF
-P 5775 4900
-F 0 "JP2" H 5775 5164 50  0000 C CNN
-F 1 "Jumper" H 5775 5073 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5775 4900 50  0001 C CNN
-F 3 "" H 5775 4900 50  0000 C CNN
-	1    5775 4900
+P 6500 4250
+F 0 "JP1" H 6500 4514 50  0000 C CNN
+F 1 "Jumper" H 6500 4423 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6500 4250 50  0001 C CNN
+F 3 "" H 6500 4250 50  0000 C CNN
+	1    6500 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R R1
 U 1 1 58B67E24
-P 3000 2600
-F 0 "R4" V 2925 2600 50  0000 C CNN
-F 1 "10K" V 3000 2600 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2930 2600 50  0001 C CNN
-F 3 "" H 3000 2600 50  0000 C CNN
-	1    3000 2600
+P 3200 2750
+F 0 "R1" V 3125 2750 50  0000 C CNN
+F 1 "10K" V 3200 2750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3130 2750 50  0001 C CNN
+F 3 "" H 3200 2750 50  0000 C CNN
+	1    3200 2750
 	0    1    1    0   
 $EndComp
-Text Label 2675 2600 0    60   ~ 0
-VCC
-Text Label 3225 2950 0    60   ~ 0
+Text Label 2975 2950 2    60   ~ 0
 VCC
 $Comp
-L CONN_01X08 P3
+L CONN_01X08 P4
 U 1 1 58B685AA
-P 6325 3100
-F 0 "P3" H 6300 2575 50  0000 L CNN
-F 1 "CONN_01X08" H 5900 2650 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 6325 3100 50  0001 C CNN
-F 3 "" H 6325 3100 50  0000 C CNN
-	1    6325 3100
+P 8700 2900
+F 0 "P4" H 8675 2375 50  0000 L CNN
+F 1 "CONN_01X08" H 8275 2450 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 8700 2900 50  0001 C CNN
+F 3 "" H 8700 2900 50  0000 C CNN
+	1    8700 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 2950 3750 2950
+	3350 2950 3800 2950
 Wire Wire Line
-	3150 2750 3800 2750
+	3525 3050 3800 3050
 Wire Wire Line
-	3150 3050 3800 3050
+	5725 4250 5825 4250
 Wire Wire Line
-	5000 4900 5100 4900
+	6125 4250 6200 4250
 Wire Wire Line
-	5400 4900 5475 4900
+	5250 4250 5425 4250
 Wire Wire Line
-	4525 4900 4700 4900
+	6025 3350 5600 3350
 Wire Wire Line
-	5825 3350 5600 3350
+	3525 3450 3800 3450
 Wire Wire Line
-	3150 3450 3800 3450
+	6800 4250 7000 4250
 Wire Wire Line
-	6075 4900 6275 4900
+	5725 2750 5600 2750
 Wire Wire Line
-	6125 2750 5600 2750
+	5725 2850 5600 2850
 Wire Wire Line
-	6125 2850 5600 2850
+	5600 2950 5725 2950
 Wire Wire Line
-	5600 2950 6125 2950
+	5600 3050 5725 3050
 Wire Wire Line
-	5600 3050 6125 3050
+	5600 3150 6025 3150
 Wire Wire Line
-	5600 3150 6125 3150
-Wire Wire Line
-	5600 3250 6125 3250
+	5600 3250 6025 3250
 Text Label 5600 2750 0    60   ~ 0
 TX
 Text Label 5600 2850 0    60   ~ 0
 RX
 Wire Wire Line
-	6125 3450 5600 3450
+	5725 3450 5600 3450
 Wire Wire Line
-	6125 3350 6125 3450
+	3800 2850 3525 2850
 Wire Wire Line
-	3800 2850 3150 2850
+	3525 3150 3800 3150
 Wire Wire Line
-	3150 3150 3800 3150
+	3525 3350 3800 3350
 Wire Wire Line
-	3150 3350 3800 3350
+	3800 3250 3525 3250
 Wire Wire Line
-	3150 2950 3450 2950
+	4450 3950 4450 4250
 Wire Wire Line
-	3800 3250 3150 3250
+	4550 3950 4550 4250
 Wire Wire Line
-	3800 3050 3800 2600
-Connection ~ 3800 3050
+	4650 4250 4650 3950
 Wire Wire Line
-	4450 3950 4450 4050
+	4750 3950 4750 4250
 Wire Wire Line
-	4550 3950 4550 4050
+	4850 3950 4850 4250
 Wire Wire Line
-	4650 4050 4650 3950
-Wire Wire Line
-	4750 3950 4750 4050
-Wire Wire Line
-	4850 3950 4850 4050
-Wire Wire Line
-	4950 3950 4950 4050
+	4950 3950 4950 4250
 $Comp
-L CONN_01X02 P4
+L CONN_01X02 P1
 U 1 1 58B6B5B1
 P 3325 4800
-F 0 "P4" V 3525 4800 50  0000 C CNN
+F 0 "P1" V 3525 4800 50  0000 C CNN
 F 1 "CONN_01X02" V 3425 4800 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3325 4800 50  0001 C CNN
 F 3 "" H 3325 4800 50  0000 C CNN
@@ -294,24 +243,16 @@ GND
 Text Label 3825 4225 0    60   ~ 0
 VCC
 $Comp
-L ESP-12E U2
+L ESP-12E U1
 U 1 1 58B670E9
 P 4700 3050
-F 0 "U2" H 4700 3815 50  0000 C CNN
+F 0 "U1" H 4700 3815 50  0000 C CNN
 F 1 "ESP-12E" H 4700 3724 50  0000 C CNN
 F 2 "ESP8266:ESP-12E" H 4700 3050 50  0001 C CNN
 F 3 "" H 4700 3050 50  0001 C CNN
 	1    4700 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2675 2600 2850 2600
-Wire Wire Line
-	3150 2600 3200 2600
-Wire Wire Line
-	3200 2600 3200 2750
-Connection ~ 3200 2750
-Connection ~ 3200 2600
 $Comp
 L C C1
 U 1 1 58BC6047
@@ -343,4 +284,277 @@ Wire Wire Line
 Wire Wire Line
 	3700 3475 3700 3450
 Connection ~ 3700 3450
+Text Label 5600 2950 0    60   ~ 0
+GPIO5
+Text Label 5600 3050 0    60   ~ 0
+GPIO4
+Text Label 5600 3150 0    60   ~ 0
+GPIO0
+Text Label 5600 3250 0    60   ~ 0
+GPIO2
+Text Label 5600 3350 0    60   ~ 0
+GPIO15
+Text Label 3600 2750 2    60   ~ 0
+REST
+Text Label 3550 2850 2    60   ~ 0
+ADC
+Text Label 3700 3050 2    60   ~ 0
+GPIO16
+Text Label 3700 3150 2    60   ~ 0
+GPIO14
+Text Label 3700 3250 2    60   ~ 0
+GPIO12
+Text Label 3700 3350 2    60   ~ 0
+GPIO13
+Text Label 4950 4250 1    60   ~ 0
+SCLK
+Text Label 4850 4250 1    60   ~ 0
+MOSI
+Text Label 4750 4250 1    60   ~ 0
+GPIO10
+Text Label 4650 4250 1    60   ~ 0
+GPIO09
+Text Label 4550 4250 1    60   ~ 0
+MISO
+Text Label 4450 4250 1    60   ~ 0
+CSO
+Text Label 6425 2925 0    60   ~ 0
+GND
+$Comp
+L SW_Push SW2
+U 1 1 58D2CE91
+P 6200 2925
+F 0 "SW2" H 6250 3025 50  0000 L CNN
+F 1 "SW_Push" H 6200 2865 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 6200 3125 50  0001 C CNN
+F 3 "" H 6200 3125 50  0001 C CNN
+	1    6200 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2925 6625 2925
+Text Notes 6750 2775 2    60   ~ 0
+Boot to Program
+Text Label 5250 4700 0    60   ~ 0
+REST
+Text Label 6150 4700 2    60   ~ 0
+GND
+$Comp
+L SW_Push SW1
+U 1 1 58D2D486
+P 5700 4700
+F 0 "SW1" H 5750 4800 50  0000 L CNN
+F 1 "SW_Push" H 5700 4640 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 5700 4900 50  0001 C CNN
+F 3 "" H 5700 4900 50  0001 C CNN
+	1    5700 4700
+	1    0    0    -1  
+$EndComp
+Text Notes 5500 4575 2    60   ~ 0
+Reset
+Wire Wire Line
+	6150 4700 5900 4700
+Wire Wire Line
+	5500 4700 5250 4700
+Text Label 8150 2550 0    60   ~ 0
+TX
+Text Label 8150 2650 0    60   ~ 0
+RX
+Text Label 8150 2750 0    60   ~ 0
+GPIO5
+Text Label 8150 2850 0    60   ~ 0
+GPIO4
+Text Label 8150 2950 0    60   ~ 0
+GPIO0
+Text Label 8150 3050 0    60   ~ 0
+GPIO2
+Text Label 8150 3150 0    60   ~ 0
+GPIO15
+Text Label 8150 3250 0    60   ~ 0
+GND
+Wire Wire Line
+	8500 2550 8150 2550
+Wire Wire Line
+	8150 2650 8500 2650
+Wire Wire Line
+	8150 2750 8500 2750
+Wire Wire Line
+	8150 2850 8500 2850
+Wire Wire Line
+	8150 2950 8500 2950
+Wire Wire Line
+	8150 3050 8500 3050
+Wire Wire Line
+	8150 3150 8500 3150
+Wire Wire Line
+	8150 3250 8500 3250
+$Comp
+L R R5
+U 1 1 58D2E025
+P 6175 3250
+F 0 "R5" V 6125 3400 50  0000 C CNN
+F 1 "10K" V 6175 3250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6105 3250 50  0001 C CNN
+F 3 "" H 6175 3250 50  0000 C CNN
+	1    6175 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 58D2E073
+P 6175 3150
+F 0 "R4" V 6125 3300 50  0000 C CNN
+F 1 "10K" V 6175 3150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6105 3150 50  0001 C CNN
+F 3 "" H 6175 3150 50  0000 C CNN
+	1    6175 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6325 3150 6625 3150
+Wire Wire Line
+	6000 2925 6000 3150
+Connection ~ 6000 3150
+Text Label 6450 3150 0    60   ~ 0
+VCC
+Wire Wire Line
+	6325 3250 6625 3250
+Text Label 6450 3250 0    60   ~ 0
+VCC
+Wire Wire Line
+	6325 3350 6625 3350
+Text Label 6450 3350 0    60   ~ 0
+GND
+Text Label 7625 2550 0    60   ~ 0
+REST
+Text Label 7625 2650 0    60   ~ 0
+ADC
+Text Label 7625 2750 0    60   ~ 0
+VCC
+Text Label 7625 2850 0    60   ~ 0
+GPIO16
+Text Label 7625 2950 0    60   ~ 0
+GPIO14
+Text Label 7625 3050 0    60   ~ 0
+GPIO12
+Text Label 7625 3150 0    60   ~ 0
+GPIO13
+Text Label 7625 3250 0    60   ~ 0
+VCC
+Wire Wire Line
+	7375 2550 7625 2550
+Wire Wire Line
+	7375 2650 7625 2650
+Wire Wire Line
+	7375 2750 7625 2750
+Wire Wire Line
+	7375 2850 7625 2850
+Wire Wire Line
+	7375 2950 7625 2950
+Wire Wire Line
+	7375 3050 7625 3050
+Wire Wire Line
+	7375 3150 7625 3150
+Wire Wire Line
+	7375 3250 7625 3250
+Text Notes 6025 3950 2    60   ~ 0
+Enable power LED
+Text Label 3675 2950 2    60   ~ 0
+CH_PD
+Wire Wire Line
+	3050 2950 2800 2950
+Wire Wire Line
+	3800 2750 3350 2750
+Text Label 2975 2750 2    60   ~ 0
+VCC
+Wire Wire Line
+	3050 2750 2800 2750
+$Comp
+L Jumper JP2
+U 1 1 58D3136E
+P 8125 4250
+F 0 "JP2" H 8125 4514 50  0000 C CNN
+F 1 "Jumper" H 8125 4423 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8125 4250 50  0001 C CNN
+F 3 "" H 8125 4250 50  0000 C CNN
+	1    8125 4250
+	1    0    0    -1  
+$EndComp
+Text Label 7725 4250 2    60   ~ 0
+REST
+Text Label 8525 4250 0    60   ~ 0
+GPIO16
+Wire Wire Line
+	7525 4250 7825 4250
+Wire Wire Line
+	8425 4250 8825 4250
+Text Notes 8325 3925 2    60   ~ 0
+Enable deep sleep
+Text Notes 7175 4575 2    60   ~ 0
+ADC voltage divider
+Text Label 6475 4700 2    60   ~ 0
+ADC
+Text Label 2975 4475 1    60   ~ 0
+VIN
+Text Label 7550 4700 0    60   ~ 0
+VIN
+$Comp
+L Jumper JP3
+U 1 1 58D45376
+P 7250 4700
+F 0 "JP3" H 7250 4550 50  0000 C CNN
+F 1 "Jumper" H 7250 4625 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7250 4700 50  0001 C CNN
+F 3 "" H 7250 4700 50  0000 C CNN
+	1    7250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 58D454B0
+P 6750 4700
+F 0 "R8" V 6830 4700 50  0000 C CNN
+F 1 "470K" V 6750 4700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6680 4700 50  0001 C CNN
+F 3 "" H 6750 4700 50  0001 C CNN
+	1    6750 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 58D45514
+P 6525 4900
+F 0 "R7" V 6605 4900 50  0000 C CNN
+F 1 "100K" V 6525 4900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 4900 50  0001 C CNN
+F 3 "" H 6525 4900 50  0001 C CNN
+	1    6525 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-ESP12-OSH #PWR03
+U 1 1 58D457AB
+P 6525 5100
+F 0 "#PWR03" H 6525 4850 50  0001 C CNN
+F 1 "GND" H 6525 4950 50  0000 C CNN
+F 2 "" H 6525 5100 50  0001 C CNN
+F 3 "" H 6525 5100 50  0001 C CNN
+	1    6525 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6525 5050 6525 5100
+Wire Wire Line
+	7550 4700 7700 4700
+Wire Wire Line
+	6950 4700 6900 4700
+Wire Wire Line
+	6300 4700 6600 4700
+Wire Wire Line
+	6525 4750 6525 4700
+Connection ~ 6525 4700
+Text Notes 3250 3850 2    60   ~ 0
+Powerrr
+Text Notes 7750 2400 2    60   ~ 0
+As-is pin out
 $EndSCHEMATC
