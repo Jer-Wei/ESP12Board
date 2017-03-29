@@ -1,7 +1,38 @@
 EESchema Schematic File Version 2
 LIBS:ESP12-OSH-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:ESP12-OSH
 LIBS:ht7333
+LIBS:switches
+LIBS:ftdi
 LIBS:ESP12-OSH-cache
 EELAYER 25 0
 EELAYER END
@@ -274,7 +305,7 @@ U 1 1 58BC6BB5
 P 3475 3800
 F 0 "H1" H 3685 3920 60  0000 C CNN
 F 1 "HT7333" H 3575 4000 60  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 3475 3800 60  0001 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 3475 3800 60  0001 C CNN
 F 3 "" H 3475 3800 60  0001 C CNN
 	1    3475 3800
 	-1   0    0    1   

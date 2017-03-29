@@ -305,7 +305,7 @@ U 1 1 58BC6BB5
 P 3475 3800
 F 0 "H1" H 3685 3920 60  0000 C CNN
 F 1 "HT7333" H 3575 4000 60  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 3475 3800 60  0001 C CNN
+F 2 "ESP12:HT7333" H 3475 3800 60  0001 C CNN
 F 3 "" H 3475 3800 60  0001 C CNN
 	1    3475 3800
 	-1   0    0    1   
@@ -563,7 +563,7 @@ F 3 "" H 6525 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND-RESCUE-ESP12-OSH #PWR03
 U 1 1 58D457AB
 P 6525 5100
 F 0 "#PWR03" H 6525 4850 50  0001 C CNN
@@ -584,7 +584,7 @@ Wire Wire Line
 Wire Wire Line
 	6525 4750 6525 4700
 Connection ~ 6525 4700
-Text Notes 3300 5175 2    60   ~ 0
+Text Notes 3250 3850 2    60   ~ 0
 Powerrr
 Text Notes 7750 2400 2    60   ~ 0
 As-is pin out
