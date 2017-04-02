@@ -9,6 +9,8 @@ This should be a 'universal' breakout board for the ESP12.
 
 Get the latest release from: https://github.com/Thijxx/ESP12Board/releases
 
-Now working on v2!
+*I am now working on v2!*
 
-[!something](img/v1-circuit.png)
+![something](img/v2-circuit.png)
+
+![something](img/v2-pcb.png)
