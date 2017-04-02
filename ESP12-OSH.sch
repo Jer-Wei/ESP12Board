@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ESP12-OSH
-LIBS:ht7333
 LIBS:switches
 LIBS:ftdi
 LIBS:ESP12-OSH-cache
@@ -460,8 +459,6 @@ Text Label 7625 2550 0    60   ~ 0
 REST
 Text Label 7625 2650 0    60   ~ 0
 ADC
-Text Label 7625 2750 0    60   ~ 0
-VCC
 Text Label 7625 2850 0    60   ~ 0
 GPIO16
 Text Label 7625 2950 0    60   ~ 0
@@ -521,71 +518,73 @@ Wire Wire Line
 	8425 4250 8825 4250
 Text Notes 8325 3925 2    60   ~ 0
 Enable deep sleep
-Text Notes 7175 4575 2    60   ~ 0
+Text Notes 2525 5550 2    60   ~ 0
 ADC voltage divider
-Text Label 6475 4700 2    60   ~ 0
+Text Label 1800 5775 2    60   ~ 0
 ADC
 Text Label 2975 4475 1    60   ~ 0
 VIN
-Text Label 7550 4700 0    60   ~ 0
+Text Label 2875 5775 0    60   ~ 0
 VIN
 $Comp
 L Jumper JP3
 U 1 1 58D45376
-P 7250 4700
-F 0 "JP3" H 7250 4550 50  0000 C CNN
-F 1 "Jumper" H 7250 4625 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7250 4700 50  0001 C CNN
-F 3 "" H 7250 4700 50  0000 C CNN
-	1    7250 4700
+P 2575 5775
+F 0 "JP3" H 2575 5625 50  0000 C CNN
+F 1 "Jumper" H 2575 5700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2575 5775 50  0001 C CNN
+F 3 "" H 2575 5775 50  0000 C CNN
+	1    2575 5775
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R8
 U 1 1 58D454B0
-P 6750 4700
-F 0 "R8" V 6830 4700 50  0000 C CNN
-F 1 "470K" V 6750 4700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6680 4700 50  0001 C CNN
-F 3 "" H 6750 4700 50  0001 C CNN
-	1    6750 4700
+P 2075 5775
+F 0 "R8" V 2155 5775 50  0000 C CNN
+F 1 "470K" V 2075 5775 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2005 5775 50  0001 C CNN
+F 3 "" H 2075 5775 50  0001 C CNN
+	1    2075 5775
 	0    1    1    0   
 $EndComp
 $Comp
 L R R7
 U 1 1 58D45514
-P 6525 4900
-F 0 "R7" V 6605 4900 50  0000 C CNN
-F 1 "100K" V 6525 4900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6455 4900 50  0001 C CNN
-F 3 "" H 6525 4900 50  0001 C CNN
-	1    6525 4900
+P 1850 5975
+F 0 "R7" V 1930 5975 50  0000 C CNN
+F 1 "100K" V 1850 5975 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1780 5975 50  0001 C CNN
+F 3 "" H 1850 5975 50  0001 C CNN
+	1    1850 5975
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND-RESCUE-ESP12-OSH #PWR03
 U 1 1 58D457AB
-P 6525 5100
-F 0 "#PWR03" H 6525 4850 50  0001 C CNN
-F 1 "GND" H 6525 4950 50  0000 C CNN
-F 2 "" H 6525 5100 50  0001 C CNN
-F 3 "" H 6525 5100 50  0001 C CNN
-	1    6525 5100
+P 1850 6175
+F 0 "#PWR03" H 1850 5925 50  0001 C CNN
+F 1 "GND" H 1850 6025 50  0000 C CNN
+F 2 "" H 1850 6175 50  0001 C CNN
+F 3 "" H 1850 6175 50  0001 C CNN
+	1    1850 6175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6525 5050 6525 5100
+	1850 6125 1850 6175
 Wire Wire Line
-	7550 4700 7700 4700
+	2875 5775 3025 5775
 Wire Wire Line
-	6950 4700 6900 4700
+	1625 5775 1925 5775
 Wire Wire Line
-	6300 4700 6600 4700
-Wire Wire Line
-	6525 4750 6525 4700
-Connection ~ 6525 4700
+	1850 5825 1850 5775
+Connection ~ 1850 5775
 Text Notes 3250 3850 2    60   ~ 0
 Powerrr
 Text Notes 7750 2400 2    60   ~ 0
 As-is pin out
+Wire Wire Line
+	2275 5775 2225 5775
+Text Label 7625 2750 0    60   ~ 0
+CH_PD
 $EndSCHEMATC

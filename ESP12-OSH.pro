@@ -1,4 +1,4 @@
-update=Tue 28 Mar 2017 03:41:01 PM CEST
+update=zo 02 apr 2017 23:20:36 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -68,6 +68,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=ESP12-OSH
-LibName32=/mnt/MintData/Dropbox/Documents/KiCad/ESP12/ht7333
-LibName33=switches
-LibName34=ftdi
+LibName32=switches
+LibName33=ftdi
